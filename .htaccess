@@ -1,0 +1,26 @@
+RewriteEngine on
+
+# php to html:
+# RewriteRule ^(.+)\.html$ $1.php [L]
+
+# php in html-pages:
+# AddType application/x-httpd-php .html .htm
+
+# all-inkl.com:
+# AddHandler php53-cgi .php
+
+# 1&1 PHP 5.4:
+# AddType x-mapp-php5.4 .php
+# AddHandler x-mapp-php5.4 .php
+
+# pulsepro cms:
+# php_flag magic_quotes_gpc Off
+
+# Rewrite xy.html to www.xy.html:
+# RewriteCond %{HTTP_HOST} !^www. [NC]
+# RewriteCond %{HTTP_HOST} !^$
+# RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301]
+
+# RewriteBase /
+
+ErrorDocument 404 /404.html
