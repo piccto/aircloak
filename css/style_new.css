@@ -28,7 +28,7 @@ header {
 	border-bottom: 1px solid #aaa;
 }
 
-.logo {
+.xlogo {
 	float: left;
 	padding: 20px 0;
 	position: relative;
@@ -185,7 +185,7 @@ nav li.small, h6.small {
 }
 
 .socials img {
-	width: 25px;
+	width: 24px;
 }
 
 #home #home, #system #system, #transparency #transparency, #products #products, #team #team, #jobs #jobs, #media #media {
@@ -378,6 +378,14 @@ a.button_full {
 a:hover.button_full {
 	color: white;
 	background: #333;
+}
+
+img.round {
+	width: 280px;
+	height: 280px;
+	border-radius: 140px;
+	background: #f2f3f5;
+	border: 1px solid #ccc;
 }
 
 /*

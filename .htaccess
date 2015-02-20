@@ -22,8 +22,8 @@ RewriteEngine on
 # RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301]
 
 # Remove index.html
-RewriteCond %{THE_REQUEST} \/index.html\ HTTP [NC]
-RewriteRule (.*)index.html$ /$1 [R=301,L]
+#RewriteCond %{THE_REQUEST} \/index.html\ HTTP [NC]
+#RewriteRule (.*)index.html$ /$1 [R=301,L]
 
 # RewriteBase /
 
