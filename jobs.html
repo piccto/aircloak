@@ -39,39 +39,19 @@
         
 			<header>
 				<div class="container">
-					<a href="index.html"><img class="logo" src="css/img/ac_logo.png" width="165" height="33" alt="Aircloak Logo"></a>
-					<ul class="nav-top">
-						<li><a href="https://hello.aircloak.com" target="blanc">Log In</li>
-						<li class="menu"><a>Menu</a></li>
-					</ul>
-				</div>
-				<nav>
-					<script>
-						$(".menu").click(function(){
-							$("nav").slideToggle("600");
-							$(".menu").toggleClass("open closed");
-							$('.menu').toggleClass('menu_open');
-						});
-					</script>
-					<div class="container">
+					<a class="logo" href="index.html"><img src="css/img/ac_logo.png" width="165" height="33" alt="Aircloak Logo"></a>
+					<a class="nav_responsive"></a>
+					<nav class="push-right">
 						<ul>
-							<li class="small">Solutions</li>
+							<li><a href="/" id="home">Home</a></li>
 							<li><a href="system.html" id="system">System</a></li>
 							<li><a href="transparency.html" id="transparency">Transparency</a></li>
-							<li><a href="products.html" id="products">Products</a></li>
-							<li class="small">About Us</li>
-							<li><a href="team.html" id="team">The Team</a></li>
-							<li><a href="jobs.html" id="jobs">Join Us</a></li>
-							<li class="small">Follow Us</li>
-							<li class="socials">
-							<a href="http://vimeo.com/user24526452/videos" target="blanc"><img src="../img/vimeo.png"></a>
-							<a href="https://twitter.com/intent/follow?screen_name=aircloak" target="blanc"><img src="../img/twitter.png"></a>
-							</li>
+							<li><a href="team.html" id="team">About Us</a></li>
 						</ul>
-					</div>					
-				</nav>
+					</nav>
+				</div>
 			</header>
-						
+									
             <section class="header_img">
             	<script>
             	    $(".header_img").backstretch("img/aircloak_team_color.jpg");

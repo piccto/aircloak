@@ -11,7 +11,7 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- css -->
-<link rel="stylesheet" media="all" href="css/base_new.css">
+<link rel="stylesheet" media="all" href="css/basic.css">
 <link rel="stylesheet" media="all" href="css/style_new.css">
 <link rel="stylesheet" media="all" href="js/bxslider/jquery.bxslider.css">
 
@@ -39,40 +39,19 @@
         
 			<header>
 				<div class="container">
-					<a href="index.html"><img class="logo" src="css/img/ac_logo.png" width="165" height="33" alt="Aircloak Logo"></a>
-					<ul class="nav-top">
-						<li><a href="https://hello.aircloak.com" target="blanc">Log In</li>
-						<li class="menu"><a>Menu</a></li>
-					</ul>
-				</div>
-				<nav>
-					<script>
-						$(".menu").click(function(){
-							$("nav").slideToggle("600");
-							$(".menu").toggleClass("open closed");
-							$('.menu').toggleClass('menu_open');
-							$('.trial-form').fadeOut(600);
-						});
-					</script>
-					<div class="container">
+					<a class="logo" href="index.html"><img src="css/img/ac_logo.png" width="165" height="33" alt="Aircloak Logo"></a>
+					<a class="nav_responsive"></a>
+					<nav class="push-right">
 						<ul>
-							<li class="small">Solutions</li>
+							<li><a href="/" id="home">Home</a></li>
 							<li><a href="system.html" id="system">System</a></li>
 							<li><a href="transparency.html" id="transparency">Transparency</a></li>
-							<li><a href="products.html" id="products">Products</a></li>
-							<li class="small">About Us</li>
-							<li><a href="team.html" id="team">The Team</a></li>
-							<li><a href="jobs.html" id="jobs">Join Us</a></li>
-							<li class="small">Follow Us</li>
-							<li class="socials">
-							<a href="http://vimeo.com/user24526452/videos" target="blanc"><img src="../img/vimeo.png"></a>
-							<a href="https://twitter.com/intent/follow?screen_name=aircloak" target="blanc"><img src="../img/twitter.png"></a>
-							</li>
+							<li><a href="team.html" id="team">About Us</a></li>
 						</ul>
-					</div>					
-				</nav>
+					</nav>
+				</div>
 			</header>
-			            
+									            
             <section class="header_img">
             	<script>
             	    $(".header_img").backstretch("img/home_key_2.jpg");
@@ -82,7 +61,7 @@
 
 			<hgroup class="bg-white">
 				<div class="container">
-					<div class="col-70 pull center">
+					<div class="col-70 push-center text-center">
 						<h2>Aircloak Use Cases</span></h2>
 						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 					</div>
@@ -91,49 +70,56 @@
 
 			<article class="bg-grey">
 				<div class="container">
-					<div class="cell" style="padding-right: 60px;"><img class="round" src="img/heatmap.gif" width="280" height="280" alt"data collection"></div>
-					<div class="cell">
-						<h3>Smart City / Transport</h3>
-						<p>Modern cities are competing on how to most effectively use data to improve living standards and infrastructure, and potentially also generate revenue. Using Aircloak’s technology, they can:</p>
-						<ul class="bullet-list">
-							<li>Combine previously locked data sets on user level, like transportation use, carsharing, socio-demographic data, indoor movement analytics and create added intelligence</li>
-							<li>Absolutely protect citizens’ privacy. Build trust through the extreme level of oversight that Aircloak allows through patentpending technology.</li>
-							<li>Open up data for monetization or OpenData: use Aircloak’s analytics interfaces that ensure malicious queries are next to impossible.</li>
-						</ul>
+					<div class="row">
+						<div class="col-40 table-cell"><img class="round" src="img/heatmap.gif" width="280" height="280" alt"data collection"></div>
+						<div class="col-60 table-cell">
+							<h3>Smart City / Transport</h3>
+							<p>Smart city technology promises to reduce cities' operating and infrastructure costs, make them more attractive for citizens and businesses, and even provide new revenue sources. With Aircloak, cities can:</p>
+							<ul class="bullet-list">
+								<li>Improve intelligence for both real-time services (safety and law enforcement) and city planning by combining data from different sources: public transportation and taxi services, car-sharing, socio-demographic data, city web services, indoor geo-location tracking, and smart streetlights.</li>
+								<li>Safely provide data to third parties for monetization or Open Data initiatives.</li>
+								<li>Instantly comply with national data privacy laws and reduce citizens' concerns over a "surveillance society".</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</article>
 
 			<article class="bg-white">
 				<div class="container">
-					<div class="cell">
-						<h3>Medical</h3>
-						<p>Medical data are increasingly recorded electronically; however currently, privacy laws lead to data silos in different institutions and make quantitative and real time use of the records prohibitively difficult.</p>
-						<ul class="bullet-list">
-							<li>Safely share medical data analytics between institutions. Private / sensitive data legally never leave single hospitals, but data can be combined in a central location and safely analyzed</li>
-							<li>Compare patients’ records with similar records of all participating institutions, thereby unlocking new treatment possibilities</li>
-							<li>No new opt-in necessary; existing data sets can be used, if required.</li>
-						</ul>
+					<div class="row">
+						<div class="col-60 table-cell">
+							<h3>Medical Research</h3>
+							<p>Sharing medical data for research is a costly and risky process. Huge opportunities for improved medical research are lost because medical institutions leave data locked-up in protected silos. Aircloak enables:</p>
+							<ul class="bullet-list">
+								<li>Safe and anonymous transmission of hospital and clinical research data to central research repositories.</li>
+								<li>Improved quality of analytics by preventing the loss of data accuracy normally associated with traditional forms of anonymization.</li>
+								<li>Compliance with medical research anonymization requirements, thus eliminating the need for new patient opt-ins.</li>
+							</ul>
+						</div>
+						<div class="col-40 table-cell"><img class="round" src="img/query_interface.jpg" width="280" height="280" alt="data sharing"></div>
 					</div>
-					<div class="cell" style="padding-left: 60px;"><img class="round" src="img/query_interface.jpg" width="280" height="280" alt="data sharing"></div>
 				</div>
 			</article>
 
 			<article class="bg-grey">
 				<div class="container">
-					<div class="cell" style="padding-right: 60px;"><img class="round" src="img/help-section.jpg" width="280" height="280" alt"data collection"></div>
-					<div class="cell">
-						<h3>Software</h3>
-						<p>Modern cities are competing on how to most effectively use data to improve living standards and infrastructure, and potentially also generate revenue. Using Aircloak’s technology, they can:</p>
-						<ul class="bullet-list">
-							<li>Combine previously locked data sets on user level, like transportation use, carsharing, socio-demographic data, indoor movement analytics and create added intelligence</li>
-							<li>Absolutely protect citizens’ privacy. Build trust through the extreme level of oversight that Aircloak allows through patentpending technology.</li>
-							<li>Open up data for monetization or OpenData: use Aircloak’s analytics interfaces that ensure malicious queries are next to impossible.</li>
-						</ul>
+					<div class="row">
+						<div class="col-40 table-cell"><img class="round" src="img/help-section.jpg" width="280" height="280" alt"data collection"></div>
+						<div class="col-60 table-cell">
+							<h3>Monetization of Geo-location Data</h3>
+							<p>Cellular operators obtain outdoor geo-location data over a wide area from cell towers. Many businesses, for instance malls or airports, collect indoor geo-location data from WIFI access points. By combining indoor and outdoor geo-location data, Aircloak can:</p>
+							<ul class="bullet-list">
+								<li>Improve insights for businesses using indoor geo-location applications by providing information about where customers live and work, as well as their demographics.</li>
+								<li>Provide better monetization opportunities for cellular operators that offer aggregate marketing data.</li>
+								<li>Avoid the need for indoor geo-location user opt-in, and provide compliance for cellular operators.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</article>
 			
+			<!--
 			<div class="trial-form">
 				<div class="container relative center">
 					<div class="trial_close"></div>
@@ -142,15 +128,14 @@
 					<iframe src="mail_form.html"></iframe>
 				</div>
 			</div>
+			-->
 
 			<article class="bg-white">
-				<div class="container icon center">
-					<div class="row">
-						<div class="col-70 pull">
-							<h2>Get A Free Trial</span></h2>
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-							<br>
-						</div>
+				<div class="container icon text-center">
+					<div class="col-70 push-center">
+						<h2>Get A Free Trial</span></h2>
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+						<br>
 					</div>
 					<div class="row">
 						<div class="col-33">
@@ -187,25 +172,27 @@
 			
 			<article class="bg-grey">
 				<div class="container footer_box">
-					<div class="col-50 small contact left">
-						<h4>Contact us</h4>
-						<hr>
-						<div class="col-50 first">
-							<p style="margin-bottom: 8px"><strong>Aircloak</strong></p>
-							<p>Paul-Ehrlich-Str. 26<br>
-							67663 Kaiserslautern<br>
-							Germany</p>
-						</div>
-						<div class="col-50">
-							<br>
-							<p style="margin-top: 8px">Phone: +49 631 9303 6248
-							<br><br>
-							<span class="strong dark_grey"><a href="mailto:solutions@aircloak.com">solutions@aircloak.com</a></span></p>
-						</div>
-						<div class="clear"></div>
-						<hr>
-						<div class="col-100">
-							<h4>Subscribe to our Mailing List</h4>
+				
+					<div class="row gap-80">
+						<div class="col-50 small">
+							<h4>Contact us</h4>
+							<hr>
+							<div class="row">
+								<div class="col-50 ma-0">
+									<p style="margin-bottom: 8px"><strong>Aircloak</strong></p>
+									<p>Paul-Ehrlich-Str. 26<br>
+									67663 Kaiserslautern<br>
+									Germany</p>
+								</div>
+								<div class="col-50 ma-0">
+									<br>
+									<p style="margin-top: 8px">Phone: +49 631 9303 6248
+									<br><br>
+									<span class="strong dark_grey"><a href="mailto:solutions@aircloak.com">solutions@aircloak.com</a></span></p>
+								</div>
+							</div>
+							<hr>
+							<h4 style="margin-bottom: 10px;">Subscribe to our Mailing List</h4>
 							<p>It's just a few times a year and always very interesting – promise.</p>
 							<div class="form clearfix" style="margin-top: 5px;">
 								<div id="mc_embed_signup">
@@ -216,29 +203,32 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-50 twitter right">
-						<h4>Follow us on Twitter</h4>
-						<a class="twitter-timeline"  href="https://twitter.com/aircloak"  data-widget-id="428814459952312320" data-chrome="nofooter xnoborders xtransparent">Tweets by @aircloak</a>
-						 <script>
-						 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-						 </script>
+						
+						<div class="col-50">
+							<h4>Follow us on Twitter</h4>
+							<a class="twitter-timeline"  href="https://twitter.com/aircloak"  data-widget-id="428814459952312320" data-chrome="nofooter xnoborders xtransparent">Tweets by @aircloak</a>
+							 <script>
+							 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+							 </script>
+						</div>
 					</div>
 				</div>
 			</article>
 
 			<footer class="bg-grey">
 				<div class="container">
-					<div class="col-50">
-						<ul>
-							<li><img src="css/img/ac_logo.png" title="Aircloak Logo" width="100" height="20"></li>
-							<li><a href="legal-notice.html">Legal Notice</a></li>
-							<li><a href="privacy-policy.html">Privacy Policy</a></li>
-							<li><strong>We are supported by:</strong></li>
-						</ul>
-					</div>
-					<div class="col-50 sponsors">
-						<img src="img/sponsors_grey2.png">
+					<div class="row">
+						<div class="col-50">
+							<ul>
+								<li><img src="css/img/ac_logo.png" alt="Aircloak Logo" width="100" height="20"></li>
+								<li><a href="legal-notice.html">Legal Notice</a></li>
+								<li><a href="privacy-policy.html">Privacy Policy</a></li>
+								<li><strong>We are supported by:</strong></li>
+							</ul>
+						</div>
+						<div class="col-50 sponsors">
+							<img src="img/sponsors_grey2.png" alt="sponsors">
+						</div>
 					</div>
 				</div>
 			</footer>
