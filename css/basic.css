@@ -94,7 +94,7 @@ ol:after,
 body {
     font-family: 'Open Sans', Arial, sans-serif; 
     font-weight:400; 
-    font-size: 15px; 
+    font-size: 14px; 
     line-height: 1.6;
     color: #777;
 }
@@ -112,12 +112,6 @@ h4, h5, h6, strong, .strong {
 
 /* Fontstyles */
 
-body {
-    font-size: 15px;
-    line-height: 1.5;
-    color: #777;
-    }
-
 h1 {font-size: 36px;}
 
 h2 {font-size: 30px;}
@@ -134,7 +128,7 @@ h1 {line-height: 1.1;}
 
 h2,
 h3,
-h4 {line-height: 1.3;}
+xh4 {line-height: 1.3;}
 
 h1,
 h2,
@@ -177,7 +171,7 @@ ol:last-child {
 
 .container {
     width: 90%;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
