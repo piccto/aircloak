@@ -12,7 +12,7 @@
 
 <!-- css -->
 <link rel="stylesheet" media="all" href="css/basic.css">
-<link rel="stylesheet" media="all" href="css/style_new.css">
+<link rel="stylesheet" media="all" href="css/style.css">
 <link rel="stylesheet" media="all" href="js/bxslider/jquery.bxslider.css">
 
 <!-- fonts -->
@@ -39,12 +39,13 @@
 			
 			<header>
 				<div class="container">
-					<a class="logo" href="index.html"><img src="css/img/ac_logo.png" width="165" height="33" alt="Aircloak Logo"></a>
+					<a class="logo" href="/"><img src="css/img/ac_logo.png" alt="Aircloak Logo" width="165" height="33" alt="Aircloak Logo"></a>
 					<a class="nav_responsive"></a>
 					<nav class="push-right">
 						<ul>
-							<li><a href="index.html" id="home">Home</a></li>
+							<li><a href="/" id="home">Home</a></li>
 							<li><a href="about-us.html" id="team">About Us</a></li>
+							<li><a href="#contact" id="contact-nav">Contact</a></li>
 							<li><a href="https://hello.aircloak.com/login" target="blanc" id="login">Log In</a></li>
 						</ul>
 					</nav>
@@ -66,10 +67,9 @@
 					<div class="row text-center">
 						<div class="col-80 push-center">
 							<h1>Anonymized Analytics:<br> <span class="green">Unleash the Power of User Data with Aircloak</span></h1>
-							<h5 class="sub" style="color: black;">Organizations lock up their user data to keep it safe.<br> Aircloak’s private-by-design technology anonymously unlocks user data analytics, creating new opportunities for business intelligence and data monetization, and eliminating the cost of compliance.</h5>
-							<!--
-							<p>User analytics, whether for business, health, or government, is hampered by inadequate protections for user privacy, making it risky and costly to share. Using sensitive user data, like location, can involve a lengthy government approval process as well as classical anonymization that weakens the value of the data. Organizations are missing valuable information that could otherwise be used to improve health, streamline government operations, reduce fraud, or enable better marketing insights. <strong>Aircloak is here to change this.</strong></p>
-							-->
+							<h4 class="xsub">Organizations lock up their user data to keep it safe. Aircloak’s private-by-design technology anonymously unlocks user data analytics, creating new opportunities for business intelligence and data monetization, and eliminating the cost of compliance.</h4>
+							<hr>
+							<p>User analytics, whether for business, health, or government, is hampered by inadequate protections for user privacy, making it risky and costly to share. Using sensitive user data, like location, can involve a lengthy government approval process as well as classical anonymization that weakens the value of the data. Organizations are missing valuable information that could otherwise be used to improve health, streamline government operations, reduce fraud, or enable better marketing insights. <span class="strong dark-grey">Aircloak is here to change this.</span></p>
 						</div>
 					</div>
 					<br>
@@ -78,141 +78,142 @@
 							<img class="pb-20" src="img/icon_deployment.png" alt="New Use Cases">
 							<h3>New Use Cases for<br> User Data Analytics</h3>
 							<p>Aircloak’s Cloaked Analytics Data Engine can be deployed to satisfy a wide variety of business use cases.</p>
-							<a class="button_full" href="use-cases.html">Read more</a>
+							<a class="button_full" style="border: 1px solid #78B624;" href="#use-cases">Read more</a>
 						</div>
 						<div class="col-33">
 							<img class="pb-20" src="img/icon_user.png" alt="Secure User Data">
 							<h3>Secure User Data<br> Anonymization</h3>
 							<p>Aircloak’s unique anonymization technology protects users while providing high–fidelity analytics.</p>
-							<a class="button_full" href="#data-engine">Read more</a>
+							<a class="button_full" style="border: 1px solid #228A95;" href="#data-engine">Read more</a>
 						</div>
 						<div class="col-33">
 							<img class="pb-20" src="img/icon_transparency.png" alt="Unprecedented Transparency">
 							<h3>Unprecedented<br> Transparency</h3>
 							<p>Auditors and data sources can examine cloak software and obtain cryptographic proof of software operation.</p>
-							<a class="button_full" href="transparency.html">Read more</a>
+							<a class="button_full" style="border: 1px solid #1cb7db;" href="#transparency">Read more</a>
 						</div>
 					</div>
 				</div>
 			</article>
 			
 			<!-- Use Cases -->
-			
-			<hgroup class="bg-grey">
-				<div class="container">
-					<div class="col-80 push-center text-center">
-						<h2>Aircloak Use Cases</h2>
-						<p>Aircloak's core anonymization technology supports a variety of deployment scenarios. The service can be deployed in-house or in Aircloak's secure cloud. Both real-time and historic data can be analyzed. Data sources can be sensors or user devices, or can be existing databases. Here are a few of the many possible use cases that Aircloak is exploring with customers.</p>
-					</div>
-				</div>
-			</hgroup>
-
-			<article class="bg-white">
-				<div class="container">
-					<div class="row">
-						<div class="col-50 table-cell"><img class="round" src="img/heatmap.gif" width="280" height="280" alt"data collection"></div>
-						<div class="col-50 table-cell">
-							<h3>Smart City / Transport</h3>
-							<p>Smart city technology promises to reduce cities' operating and infrastructure costs, make them more attractive for citizens and businesses, and even provide new revenue sources. With Aircloak, cities can:</p>
-							<ul class="bullet-list">
-								<li>Improve intelligence for both real-time services (safety and law enforcement) and city planning by combining data from different sources: public transportation and taxi services, car-sharing, socio-demographic data, city web services, indoor geo-location tracking, and smart streetlights.</li>
-								<li>Safely provide data to third parties for monetization or Open Data initiatives.</li>
-								<li>Instantly comply with national data privacy laws and reduce citizens' concerns over a "surveillance society".</li>
-							</ul>
+			<section class="anker" id="use-cases">
+				<article class="bg-grey">
+					<div class="container">
+						<div class="col-80 push-center text-center">
+							<h2>Aircloak Use Cases</h2>
+							<p>Aircloak's core anonymization technology supports a variety of deployment scenarios. The service can be deployed in-house or in Aircloak's secure cloud. Both real-time and historic data can be analyzed. Data sources can be sensors or user devices, or can be existing databases. Here are a few of the many possible use cases that Aircloak is exploring with customers.</p>
 						</div>
 					</div>
-				</div>
-			</article>
-
-			<article class="bg-grey">
-				<div class="container">
-					<div class="row">
-						<div class="col-50 table-cell">
-							<h3>Medical Research</h3>
-							<p>Sharing medical data for research is a costly and risky process. Huge opportunities for improved medical research are lost because medical institutions leave data locked-up in protected silos. Aircloak enables:</p>
-							<ul class="bullet-list">
-								<li>Safe and anonymous transmission of hospital and clinical research data to central research repositories.</li>
-								<li>Improved quality of analytics by preventing the loss of data accuracy normally associated with traditional forms of anonymization.</li>
-								<li>Compliance with medical research anonymization requirements, thus eliminating the need for new patient opt-ins.</li>
-							</ul>
-						</div>
-						<div class="col-50 table-cell"><img class="round" src="img/query_interface.jpg" width="280" height="280" alt="data sharing"></div>
-					</div>
-				</div>
-			</article>
-
-			<article class="bg-white">
-				<div class="container">
-					<div class="row">
-						<div class="col-50 table-cell"><img class="round" src="img/help-section.jpg" width="280" height="280" alt"data collection"></div>
-						<div class="col-50 table-cell">
-							<h3>Monetization of Geo-location Data</h3>
-							<p>Cellular operators obtain outdoor geo-location data over a wide area from cell towers. Many businesses, for instance malls or airports, collect indoor geo-location data from WIFI access points. By combining indoor and outdoor geo-location data, Aircloak can:</p>
-							<ul class="bullet-list">
-								<li>Improve insights for businesses using indoor geo-location applications by providing information about where customers live and work, as well as their demographics.</li>
-								<li>Provide better monetization opportunities for cellular operators that offer aggregate marketing data.</li>
-								<li>Avoid the need for indoor geo-location user opt-in, and provide compliance for cellular operators.</li>
-							</ul>
+				</article>
+	
+				<article class="bg-white">
+					<div class="container">
+						<div class="row">
+							<div class="col-40 table-cell text-center"><img class="round" src="img/heatmap.gif" width="280" height="280" alt"Smart City / Transport"></div>
+							<div class="col-60 table-cell">
+								<h3>Smart City / Transport</h3>
+								<p>Smart city technology promises to reduce cities' operating and infrastructure costs, make them more attractive for citizens and businesses, and even provide new revenue sources. With Aircloak, cities can:</p>
+								<ul class="bullet-list">
+									<li>Improve intelligence for both real-time services (safety and law enforcement) and city planning by combining data from different sources: public transportation and taxi services, car-sharing, socio-demographic data, city web services, indoor geo-location tracking, and smart streetlights.</li>
+									<li>Safely provide data to third parties for monetization or Open Data initiatives.</li>
+									<li>Instantly comply with national data privacy laws and reduce citizens' concerns over a "surveillance society".</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+	
+				<article class="bg-grey">
+					<div class="container">
+						<div class="row">
+							<div class="col-60 table-cell">
+								<h3>Medical Research</h3>
+								<p>Sharing medical data for research is a costly and risky process. Huge opportunities for improved medical research are lost because medical institutions leave data locked-up in protected silos. Aircloak enables:</p>
+								<ul class="bullet-list">
+									<li>Safe and anonymous transmission of hospital and clinical research data to central research repositories.</li>
+									<li>Improved quality of analytics by preventing the loss of data accuracy normally associated with traditional forms of anonymization.</li>
+									<li>Compliance with medical research anonymization requirements, thus eliminating the need for new patient opt-ins.</li>
+								</ul>
+							</div>
+							<div class="col-40 table-cell text-center"><img src="img/illu_medical.png" width="280" height="280" alt="Medical Research"></div>
+						</div>
+					</div>
+				</article>
+	
+				<article class="bg-white">
+					<div class="container">
+						<div class="row">
+							<div class="col-40 table-cell text-center"><img src="img/illu_geo_location.png" width="280" height="280" alt"Monetization of Geolocation Data"></div>
+							<div class="col-60 table-cell">
+								<h3>Monetization of Geolocation Data</h3>
+								<p>Cellular operators obtain outdoor geolocation data over a wide area from cell towers. Many businesses, for instance malls or airports, collect indoor geolocation data from WiFi access points. By combining indoor and outdoor geolocation data, Aircloak can:</p>
+								<ul class="bullet-list">
+									<li>Improve insights for businesses using indoor geolocation applications by providing information about where customers live and work, as well as their demographics.</li>
+									<li>Provide better monetization opportunities for cellular operators that offer aggregate marketing data.</li>
+									<li>Avoid the need for indoor geolocation user opt-in, and provide compliance for cellular operators.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
 						
 			<!-- Data Engine -->
-			
-			<article class="bg-grey" id="data-engine">
-				<div class="container text-center">
-					<div class="col-70 push-center">
-						<h2>Aircloak Cloaked Database</h2>
-						<p>At the core of all Aircloak solutions is the Cloaked Database, or "Cloak" for short. The Cloak utilizes "Trusted Computing" secure hardware and Security Enhanced Linux (SELinux). The result is a zero-access, zero-password secure system with enforced oversight and cryptographically proven transparency.</p>
-					</div>
-				</div>
-			</article>
-
-			<article class="bg-white" id="data-engine-2">
-				<div class="container">
-					<div class="row text-center">
-						<div class="col-100">
-							<img class="illu_system screen" src="img/illu_system.png" alt="Cloaked Analytics Data Engine">
-							<img class="illu_system mobile" src="img/illu_system_small.png" alt="Cloaked Analytics Data Engine">
+			<section class="anker" id="data-engine">
+				<article class="bg-grey">
+					<div class="container text-center">
+						<div class="col-70 push-center">
+							<h2>Aircloak Cloaked Database</h2>
+							<p>At the core of all Aircloak solutions is the Cloaked Database, or "Cloak" for short. The Cloak utilizes "Trusted Computing" secure hardware and Security Enhanced Linux (SELinux). The result is a zero-access, zero-password secure system with enforced oversight and cryptographically proven transparency.</p>
 						</div>
 					</div>
-					<hr>
-					<div class="row">
-						<div class="col-33">
-							<h4>Scalable Database</h4>
-							<ul class="bullet-list">
-								<li>Sharded SQL Database</li>
-								<li>In-house or As-a-service</li>
-								<li>Upload from Customer Database or</li>
-								<li>Upload from User Device</li>
-							</ul>
+				</article>
+	
+				<article class="bg-white">
+					<div class="container">
+						<div class="row text-center">
+							<div class="col-100">
+								<img class="illu-data-engine screen" src="img/illu_system.png" alt="Cloaked Analytics Data Engine">
+								<img class="illu-data-engine mobile" src="img/illu_system_small.png" alt="Cloaked Analytics Data Engine">
+							</div>
 						</div>
-						<div class="col-33">
-							<h4>Rich Analytics</h4>
-							<ul class="bullet-list">
-								<li>Power of SQL</li>
-								<li>Streamed or Batch Data Upload</li>
-								<li>Real-time or Historic Queries</li>
-								<li>Structured and Unstructed Data</li>
-							</ul>
-						</div>
-						<div class="col-33">
-							<h4>Hardware-Based Trust</h4>
-							<ul class="bullet-list">
-								<li>Secure Trusted Platform (TPM)</li>
-								<li>TPM-based Third-party Oversight</li>
-								<li>TPM-based Remote Attestation</li>
-								<li>Tamper-proof Query Logging</li>
-							</ul>
+						<hr>
+						<div class="row">
+							<div class="col-33">
+								<h4>Scalable Database</h4>
+								<ul class="bullet-list">
+									<li>Sharded SQL Database</li>
+									<li>In-house or As-a-service</li>
+									<li>Upload from Customer Database or</li>
+									<li>Upload from User Device</li>
+								</ul>
+							</div>
+							<div class="col-33">
+								<h4>Rich Analytics</h4>
+								<ul class="bullet-list">
+									<li>Power of SQL</li>
+									<li>Streamed or Batch Data Upload</li>
+									<li>Real-time or Historic Queries</li>
+									<li>Structured and Unstructed Data</li>
+								</ul>
+							</div>
+							<div class="col-33">
+								<h4>Hardware-Based Trust</h4>
+								<ul class="bullet-list">
+									<li>Secure Trusted Platform (TPM)</li>
+									<li>TPM-based Third-party Oversight</li>
+									<li>TPM-based Remote Attestation</li>
+									<li>Tamper-proof Query Logging</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</section>
 			
 			<!-- Transparency -->
-			
-			<section id="transparency">
+			<section class="anker" id="transparency">
 				<article class="bg-grey">
 					<div class="container text-center">
 						<div class="col-80 push-center">
@@ -226,8 +227,11 @@
 					<div class="container text-center">
 						<div class="row gap-80 transp">
 							<div class="col-33 round-2">
-								<h4 class="middle"><span class="dark-grey">That's the beauty of it:</span> <span class="green">You don't have to. Instead, you can verify.</span></h4>
+								<h4 class="middle"><span class="dark-grey">That's the beauty of it:</span><br> <span class="green">You don't have to.<br> Instead, you can verify.</span></h4>
 							</div>
+							<script>
+							$('.middle').vAlign();
+							</script>
 							<div class="col-33 left">
 								<img class="pb-20" src="img/icon_transparency.png" alt="Unprecedented Transparency">
 								<h4>Cryptographic Proof</h4>
@@ -240,18 +244,16 @@
 							</div>
 						</div>
 						<div class="row">
-								<!--<h2 class="col-100 text-center">Cryptographic Proof and Oversight with Teeth</h2>-->
-								<div class="col-70 push-center text-center">
-									<!--<p>Handling personal data correctly is as hard as it is important. At Aircloak, we strongly believe that by making what we do absolutely open and clear to everybody, we can not only create an environment of trust, but also use the wisdom of the crowd to keep improving user privacy.</p>-->
-									<p>Using specialized cryptographic hardware, we make use of a technology called "remote attestation". This effectively enables any interested party to inspect our installed critical code line by line. Certain auditors are furthermore given a real, technological – not only political – power to approve what we do. If they don't, our Cloak cannot decrypt user data any more.</p>
-									<h4>That is why we call it "Oversight with Teeth".</h4>
-								</div>
+							<div class="col-70 push-center text-center">
+								<p>Using specialized cryptographic hardware, we make use of a technology called "remote attestation". This effectively enables any interested party to inspect our installed critical code line by line. Certain auditors are furthermore given a real, technological – not only political – power to approve what we do. If they don't, our Cloak cannot decrypt user data any more.</p>
+								<h4>That is why we call it<br> "Oversight with Teeth".</h4>
 							</div>
 						</div>
 					</div>
 				</article>	
 			</section>
 			
+			<!-- Downloads -->
 			<article class="bg-grey download">
 				<div class="container" style="border-top: 0">
 					<div class="row">
@@ -267,13 +269,9 @@
 						</div>
 					</div>
 				</div>
-			</article>
-
-								
+			</article>			
 			
-			<!-- / -->
-			
-
+			<!-- News-Slider -->
 			<article class="bg-white">
 				<div class="container">
 					<div class="row">
@@ -337,59 +335,61 @@
 									<img src="img/bitkom.png" alt="bitkom">
 									<p class="cite">In einer Halle voller 'Big Data' kann ein wenig Datenschutz nicht schaden.</p>
 								</a>
-								<a class="col-25" href="#" target="blanc">
-									<h4 style="padding-top: 50px;">... soon more.</h4>
-								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</article>
-
-			<article class="bg-grey">
-				<div class="container footer_box">
-				
-					<div class="row gap-80">
-						<div class="col-50 small">
-							<h4>Contact us</h4>
-							<hr>
-							<div class="row">
-								<div class="col-50 ma-0">
-									<p style="margin-bottom: 8px"><strong>Aircloak</strong></p>
-									<p>Paul-Ehrlich-Str. 26<br>
-									67663 Kaiserslautern<br>
-									Germany</p>
+			
+			<section class="anker" id="contact">
+				<article class="bg-grey">
+					<div class="container">
+					
+						<div class="row gap-80">
+							<div class="col-50 small">
+								<h4>Contact us</h4>
+								<hr>
+								<div class="row">
+									<div class="col-50 ma-0">
+										<p style="margin-bottom: 8px"><strong>Aircloak</strong></p>
+										<p>Paul-Ehrlich-Str. 26<br>
+										67663 Kaiserslautern<br>
+										Germany</p>
+									</div>
+									<div class="col-50 ma-0">
+										<br>
+										<p style="margin-top: 8px">Phone: +49 631 9303 6248
+										<br><br>
+										<span class="strong dark_grey"><a href="mailto:solutions@aircloak.com">solutions@aircloak.com</a></span></p>
+									</div>
 								</div>
-								<div class="col-50 ma-0">
-									<br>
-									<p style="margin-top: 8px">Phone: +49 631 9303 6248
-									<br><br>
-									<span class="strong dark_grey"><a href="mailto:solutions@aircloak.com">solutions@aircloak.com</a></span></p>
+								<hr>
+								<h4 style="margin-bottom: 10px;">Subscribe to our Mailing List</h4>
+								<p>It's just a few times a year and always very interesting – promise.</p>
+								<div class="form clearfix" style="margin-top: 5px;">
+									<div id="mc_embed_signup">
+										<form action="http://aircloak.us5.list-manage1.com/subscribe/post?u=ef2d43f3bad530fecf80b1118&amp;id=6e7a17bb00" align="center" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+										<div class=""><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+										</form>
+									</div>
 								</div>
 							</div>
-							<hr>
-							<h4 style="margin-bottom: 10px;">Subscribe to our Mailing List</h4>
-							<p>It's just a few times a year and always very interesting – promise.</p>
-							<div class="form clearfix" style="margin-top: 5px;">
-								<div id="mc_embed_signup">
-									<form action="http://aircloak.us5.list-manage1.com/subscribe/post?u=ef2d43f3bad530fecf80b1118&amp;id=6e7a17bb00" align="center" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-									<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-									<div class=""><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-									</form>
-								</div>
+							
+							<div class="col-50">
+								<h4>Follow us on Twitter</h4>
+								<!-- This makes the twitter-widget finally load correctly :) -->
+								<script>twttr.widgets.load()</script>
+								<!-- -->
+								<a class="twitter-timeline"  href="https://twitter.com/aircloak"  data-widget-id="428814459952312320" data-chrome="nofooter">Tweets by @aircloak</a>
+								 <script>
+								 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+								 </script>
 							</div>
-						</div>
-						
-						<div class="col-50">
-							<h4>Follow us on Twitter</h4>
-							<a class="twitter-timeline"  href="https://twitter.com/aircloak"  data-widget-id="428814459952312320" data-chrome="nofooter xnoborders xtransparent">Tweets by @aircloak</a>
-							 <script>
-							 	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-							 </script>
 						</div>
 					</div>
-				</div>
-			</article>
+				</article>
+			</section>
 
 			<footer class="bg-grey">
 				<div class="container">
@@ -410,7 +410,9 @@
 			</footer>
 
 		</div> <!-- end pagewrap -->
+		
 		<script src="/js/instantclick.min.js" data-no-instant></script>
 		<script data-no-instant>InstantClick.init();</script>
+		
     </body>
 </html>

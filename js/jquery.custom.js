@@ -17,13 +17,12 @@ $(document).ready(function(){
 
 		$('html, body').stop().animate({
 			'scrollTop': $target.offset().top
-		}, 600, 'swing', function() {
+		}, 400, 'swing', function() {
 			window.location.hash = target;
 		});
 	});
 	
 	$('.middle').vAlign();
-		
 		
 });
 
