@@ -12,7 +12,7 @@ body {
 
 header {
 	width: 100%;
-	min-height: 100px;
+	height: 100px;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -182,6 +182,11 @@ a:hover {
 	position: relative;
 	height: 150px;
 	margin-top: 100px;
+}
+
+#home .header_img,
+#team .header_img {
+	height: 300px;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -406,16 +411,6 @@ iframe#twitter-widget-0 {
 /* ----- Responsive Styles ----- */
 
 @media only screen and (min-width: 960px) {
-
-	#home .header_img,
-	#team .header_img {
-		height: 300px;
-	}
-
-	#use-cases .table-cell {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	}
 	
 	.transp .col-33 {
 		height: 300px;
@@ -462,6 +457,10 @@ iframe#twitter-widget-0 {
 	.middle {
 		margin-top: 0 !important;
 	}
+	
+	.push-right {
+		float: none !important;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -481,6 +480,8 @@ iframe#twitter-widget-0 {
 		font-size: 15px; 
 	}
 	
+	#home .header_img,
+	#team .header_img,
 	#home .header_img .container,
 	#team .header_img .container {
 		height: 150px;
